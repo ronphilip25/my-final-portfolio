@@ -1,5 +1,6 @@
 import React from 'react'
 import Link from 'next/link'
+import Image from 'next/image'
 
 function About() {
   return (
@@ -31,7 +32,7 @@ function About() {
           </Link>
             </div>
             <div className='w-full h-auto m-auto shadow-xl shadow-gray-400 rounded-lg items-center justify-center p-4 hover:scale-105 ease-in duration-300'>
-                <img className='rounded-xl' src='https://wallpapercave.com/wp/wp6351088.jpg' alt='/' />
+                <Image className='rounded-xl' src='/../public/assets/about.jpg' width='600' height='600' alt='/' />
             </div>
         </div>
     </div>

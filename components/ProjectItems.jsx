@@ -1,5 +1,6 @@
 import React from 'react'
 import Link from 'next/link'
+import Image from 'next/image'
 
 function ProjectItems() {
   return (
@@ -10,8 +11,8 @@ function ProjectItems() {
                  <p className='pb-4 pt-2 text-white text-center'>React JS</p>
               </div>
               <Link href="https://github.com/ronphilip25">
-              <img className='rounded-xl group-hover:opacity-10 w-auto h-120'
-                src="https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg"
+              <Image className='rounded-xl group-hover:opacity-10 w-auto h-120'
+                src="https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg" width='125' height='125'
                 alt=''
               /><p className='text-center py-3 rounded-lg bg-white text-gray-700 font-bold text-lg cursor-pointer'>Click Here</p>
             </Link>

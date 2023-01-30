@@ -4,6 +4,7 @@ import {AiOutlineMail} from 'react-icons/ai'
 import {BsFillPersonLinesFill} from 'react-icons/bs'
 import {HiOutlineChevronDoubleUp} from 'react-icons/hi'
 import Link from 'next/link'
+import Image from 'next/image'
 
 function Contact() {
   return (
@@ -15,13 +16,15 @@ function Contact() {
         <h2 className="py-4">Get In Touch</h2>
       </div>
       <div className="grid lg:grid-cols-5 gap-8">
-        {/* left */}
+        
         <div className='col-span-3 lg:col-span-2 w-full h-full shadow-xl shadow-gray-400 rounded-xl p-4'>
             <div className='lg:p-4 h-full '>
               <div>
-                <img
+                <Image
                   className='rounded-xl hover:scale-105 ease-in duration-300'
-                  src='https://www.salesforce.com/content/dam/blogs/ca/Blog%20Posts/Every-Task-a-Customer-Service-Rep-Must-Do-opengraph.png'
+                  src='/../public/assets/contact.png'
+                  width='900'
+                  height='500'
                   alt='/'
                 />
               </div>
@@ -30,7 +33,7 @@ function Contact() {
                 <p>Front-End Developer</p>
                 <p className='py-4'>
                   I am available for freelance or full-time positions. Contact
-                  me and let&apos;s talk.
+                  me and lets talk.
                 </p>
               </div>
               <div>
@@ -70,7 +73,7 @@ function Contact() {
             </div>
           </div>
 
-        {/* right */}
+        
         <div className='col-span-3 w-full h-auto shadow-xl shadow-gray-400 rounded-xl lg:p-4'>
             <div className='p-4'>
               <form
