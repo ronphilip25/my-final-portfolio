@@ -49,7 +49,7 @@ function Navbar  ()  {
       <div className='flex justify-between items-center w-full h-full px-2 2xl:px-16'>
        <Link href='/'>
         <Image
-          src='/../public/rlogo.png'
+          src='/../public/assets/rLogo.png'
           alt='Current Logo'
           width='75'
           height='50'
