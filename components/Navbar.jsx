@@ -4,6 +4,7 @@ import Image from 'next/image'
 import {AiOutlineClose,AiOutlineMenu} from 'react-icons/ai'
 import { FaGithub} from 'react-icons/fa';
 import {BsTwitter, BsFacebook, BsInstagram} from 'react-icons/bs';
+import NavLogo from '../public/rLogo.png'
 // import { useRouter } from 'next/router';
 
 
@@ -49,7 +50,7 @@ function Navbar  ()  {
       <div className='flex justify-between items-center w-full h-full px-2 2xl:px-16'>
        <Link href='/'>
         <Image
-          src='/../public/rLogo.png'
+          src={NavLogo}
           alt='Current Logo'
           width='75'
           height='50'
@@ -95,7 +96,7 @@ function Navbar  ()  {
             <div className='flex w-full items-center justify-between'>
               <Link href='/'>
               <Image 
-              src='/../public/rLogo.png' 
+              src={NavLogo}
               width='87'
               height='35' 
               alt='/' 
