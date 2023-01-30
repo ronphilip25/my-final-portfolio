@@ -46,7 +46,7 @@ function Navbar  ()  {
     },[])
 
   return (
-    <div className={shadow ? 'flex w-full h-20 shadow-xl z-[100]' : 'flex w-full h-20 z-[100]'}>
+    <div className={shadow ? 'fixed w-full h-20 shadow-xl p-5 z-[100]' : 'fixed w-full p-5 h-20 z-[100]'}>
       <div className='flex justify-between items-center w-full h-full px-2 2xl:px-16'>
        <Link href='/'>
         <Image
@@ -84,7 +84,7 @@ function Navbar  ()  {
               </li>
             </Link>
           </ul>
-          <div onClick={handleNav} className='md:hidden'>
+          <div onClick={handleNav} className='md:hidden sm:flex'>
             <AiOutlineMenu size={25} />
           </div>
         </div>
