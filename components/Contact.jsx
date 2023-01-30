@@ -4,7 +4,7 @@ import {BsFacebook,BsInstagram,BsTwitter} from 'react-icons/bs'
 import {HiOutlineChevronDoubleUp} from 'react-icons/hi'
 import Link from 'next/link'
 import Image from 'next/image'
-import ContactImg from '../public/contact.png'
+import ContactImg from '../public/assets/contact.png'
 
 function Contact() {
   return (
