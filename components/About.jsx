@@ -12,13 +12,13 @@ const About = () => {
             About
           </p>
           <h2 className='py-4'>Who I Am</h2>
-          <p className='py-2 text-gray-600'>
+          <p className='py-2  text-black'>
             I specialize in building mobile responsive front-end UI applications
             that connect with API and other backend technologies.</p>
-            <p className='py-2 text-gray-600'> I am passionate about learning new technologies and understand there is more than one way to accomplish a task.</p>
-            <p className='py-2 text-gray-600'>Though I am most proficient in building front-end applications using HTML, CSS, Javascript, and React.</p> 
-            <p className='py-2 text-gray-600'>I am a quick learner and can pick up new tech stacks as needed.</p>
-            <p className='py-2 text-gray-600'>
+            <p className='py-2 text-black'> I am passionate about learning new technologies and understand there is more than one way to accomplish a task.</p>
+            <p className='py-2 text-black'>Though I am most proficient in building front-end applications using HTML, CSS, Javascript, and React.</p> 
+            <p className='py-2 text-black'>I am a quick learner and can pick up new tech stacks as needed.</p>
+            <p className='py-2 text-black'>
             I believe that being a great developer is not using one
             specific language, but choosing the best tool for the job.</p>
           <Link href='/#projects'>
