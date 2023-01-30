@@ -15,7 +15,7 @@ function Skills() {
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
                 <Image
-                  src='/../public/assets/skills/html.png'
+                  src='/../public/html.png'
                   width='64'
                   height='64'
                   alt="/"
@@ -30,7 +30,7 @@ function Skills() {
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
                 <Image
-                  src='/../public/assets/skills/css.png'
+                  src='/../public/css.png'
                   width='64'
                   height='64'
                   alt="/"
@@ -45,7 +45,7 @@ function Skills() {
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
                 <Image
-                  src='/../public/assets/skills/react.png'
+                  src='/../public/react.png'
                   width='64'
                   height='64'
                   alt="/"
@@ -60,7 +60,7 @@ function Skills() {
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
                 <Image
-                  src='/../public/assets/skills/nextjs.png'
+                  src='/../public/nextjs.png'
                   width='64'
                   height='64'
                   alt="/"
@@ -75,7 +75,7 @@ function Skills() {
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
                 <Image
-                  src='/../public/assets/skills/javascript.png'
+                  src='/../public/javascript.png'
                   width='64'
                   height='64'
                   alt="/"
@@ -90,7 +90,7 @@ function Skills() {
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
                 <Image
-                  src='/../public/assets/skills/tailwind.png'
+                  src='/../public/tailwind.png'
                   width='64'
                   height='64'
                   alt="/"
@@ -105,7 +105,7 @@ function Skills() {
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
                 <Image
-                  src='/../public/assets/skills/github1.png'
+                  src='/../public/github1.png'
                   width='64'
                   height='64'
                   alt="/"
@@ -120,7 +120,7 @@ function Skills() {
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
                 <Image
-                  src='/../public/assets/skills/node.png'
+                  src='/../public/node.png'
                   width='64'
                   height='64'
                   alt="/"

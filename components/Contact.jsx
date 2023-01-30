@@ -1,5 +1,5 @@
 import React from 'react'
-import {FaLinkedinIn,FaGithub,} from 'react-icons/fa'
+import {FaGithub} from 'react-icons/fa'
 import {BsFacebook,BsInstagram,BsTwitter} from 'react-icons/bs'
 import {HiOutlineChevronDoubleUp} from 'react-icons/hi'
 import Link from 'next/link'
@@ -20,7 +20,7 @@ function Contact() {
             <div>
               <Image
                 className="rounded-xl hover:scale-105 ease-in duration-300"
-                src='/../public/assets/skills/contact.png'
+                src='/../public/contact.png'
                 width="900"
                 height="500"
                 alt="/"
