@@ -20,7 +20,7 @@ function Contact() {
             <div>
               <Image
                 className="rounded-xl hover:scale-105 ease-in duration-300"
-                src='/../public/assets/contact.png'
+                src='/../public/assets/skills/contact.png'
                 width="900"
                 height="500"
                 alt="/"
