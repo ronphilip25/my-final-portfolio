@@ -23,9 +23,7 @@ const About = () => {
             specific language, but choosing the best tool for the job.
           </p>
           <p className='py-2 text-gray-600'>
-          I have worked hard to refine my abilities as a Front-End Developer, and although I am aware of my weaknesses, I am eager to fill them, learn new things, and continue to grow in this always changing field.
-
-I'm trying to get a job as a junior developer, which would let me hone my abilities and contribute to the business through development.
+           {/*  */}
           </p>
           <Link href='/#projects'>
             <p className='py-2 text-gray-600 underline cursor-pointer'>
