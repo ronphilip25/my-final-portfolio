@@ -46,7 +46,7 @@ function Navbar  ()  {
     },[])
 
   return (
-    <div className={shadow ? 'fixed w-full h-20 shadow-xl p-5 z-[100]' : 'fixed w-full p-5 h-20 z-[100]'}>
+    <div className={shadow ? 'fixed w-full h-20 shadow-xl p-10 z-[100]' : 'fixed w-full p-10 h-20 z-[100]'}>
       <div className='flex justify-between items-center w-full h-full px-2 2xl:px-16'>
        <Link href='/'>
         <Image
