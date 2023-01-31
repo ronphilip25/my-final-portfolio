@@ -70,10 +70,10 @@ from,
       transform: rotateY(-270deg) rotateX(90deg);
     }
     83% {
-      transform: rotateX(90deg);
+      transform: rotateZ(90deg);
     }
     90%{
-      transform: rotateZ(360deg);
+      transform: rotateZ(360deg) rotateX(90deg);
     }
   }
 
