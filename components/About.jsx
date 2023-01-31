@@ -1,7 +1,5 @@
 import React from 'react';
-import Image from 'next/image';
 import Link from 'next/link';
-import AboutImg from '../public/assets/about.jpg'
 
 const About = () => {
   return (
@@ -27,8 +25,17 @@ const About = () => {
             </p>
           </Link>
         </div>
-        <div className='w-full h-auto m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center p-4 hover:scale-105 ease-in duration-300'>
-          <Image src={AboutImg} width='500' height='300' className='rounded-xl' alt='/' />
+        <div className='w-full h-auto m-auto flex items-center justify-center p-4 pb-24 sm:pt-24'>
+       <div class='cube-container'>
+       <div class='cubespinner'>
+       <div class="face1"><img className='rounded-3xl h-full w-full' src="https://cdn.worldvectorlogo.com/logos/css-3.svg"/></div>
+       <div class="face2"><img className='rounded-lg h-full w-full' src="https://cdn.worldvectorlogo.com/logos/logo-javascript.svg"/></div>
+       <div class="face3"><img className='h-full w-full' src="https://cdn.worldvectorlogo.com/logos/tailwind-css-2.svg"/></div>
+       <div class="face4"><img className='h-full w-full' src="https://cdn.worldvectorlogo.com/logos/react-2.svg"/></div>
+       <div class="face5"><img className='h-full w-full' src="https://cdn.worldvectorlogo.com/logos/nodejs-icon.svg"/></div>
+       <div class="face6"><img className='h-full w-full' src="https://cdn.worldvectorlogo.com/logos/nextjs-2.svg"/></div>
+       </div>
+       </div>
         </div>
       </div>
     </div>

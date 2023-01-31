@@ -9,7 +9,7 @@ html {
 
 @layer base {
   body {
-    @apply bg-gradient-to-r from-fuchsia-100 to-sky-300 text-[#0e1516] tracking-wide
+    @apply bg-gradient-to-r from-sky-300 to-fuchsia-300 text-[#0e1516] tracking-wide
   }
 
   h1, h2, h3, h4, h5, h6 {
