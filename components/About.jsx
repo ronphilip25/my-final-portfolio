@@ -9,7 +9,7 @@ const About = () => {
           <p className='uppercase text-xl tracking-widest text-[#5651e5]'>
             About
           </p>
-          <h2 className='py-4'>Who I Am</h2>
+          <h2 className='py-4'>Who Am I</h2>
           <p className='py-2  text-black font-semibold hover:scale-95 ease-in  duration-100'>
             I specialize in building mobile responsive front-end UI applications
             that connect with API and other backend technologies.</p>
@@ -25,7 +25,7 @@ const About = () => {
             </p>
           </Link>
         </div>
-        <div className='w-full h-auto m-auto flex items-center justify-center p-4 pb-24 sm:pt-24'>
+        <div className='w-full h-auto m-auto flex items-center justify-center p-4 pb-24 sm:pt-28'>
        <div class='cube-container'>
        <div class='cubespinner'>
        <div class="face1"><img className='rounded-3xl h-full w-full' src="https://cdn.worldvectorlogo.com/logos/css-3.svg"/></div>

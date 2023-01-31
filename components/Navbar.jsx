@@ -46,7 +46,7 @@ function Navbar  ()  {
     },[])
 
   return (
-    <div className={shadow ? 'fixed w-full h-20 shadow-xl p-10 z-[100]' : 'fixed w-full p-10 h-20 z-[100]'}>
+    <div className={shadow ? 'md:flex sm:fixed w-full h-20 shadow-xl z-[100]' : 'md:flex w-full h-20 z-[100]'}>
       <div className='flex justify-between items-center w-full h-full px-2 2xl:px-16'>
        <Link href='/'>
         <Image
@@ -57,7 +57,7 @@ function Navbar  ()  {
         />
         </Link>
         <div>
-          <ul className='hidden md:flex'>
+          <ul className='hidden p-10 md:flex'>
             <Link href='/'>
               <li className='ml-10 text-sm uppercase hover:line-through'>
                 Home
@@ -84,7 +84,7 @@ function Navbar  ()  {
               </li>
             </Link>
           </ul>
-          <div onClick={handleNav} className='md:hidden sm:flex'>
+          <div onClick={handleNav} className='md:hidden sm:flex p-4 '>
             <AiOutlineMenu size={25} />
           </div>
         </div>
