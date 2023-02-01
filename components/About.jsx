@@ -5,22 +5,22 @@ const About = () => {
   return (
     <div id='about' className='w-full md:h-screen p-2 flex items-center py-16'>
       <div className='max-w-[1240px] m-auto md:grid grid-cols-3 gap-8'>
-        <div className='col-span-2'>
+        <div className='col-span-2' class="text-effect">
           <p className='uppercase text-xl tracking-widest text-[#5651e5]'>
             About
           </p>
           <h2 className='py-4'>Who Am I</h2>
-          <p className='py-2  text-black font-semibold hover:scale-95 ease-in  duration-100'>
+          <p className='py-2  text-black font-semibold'>
             I specialize in building mobile responsive front-end UI applications
             that connect with API and other backend technologies.</p>
-            <p className='py-2 text-black font-semibold hover:scale-95 ease-in  duration-100'> I am passionate about learning new technologies and understand there is more than one way to accomplish a task.</p>
-            <p className='py-2 text-black font-semibold hover:scale-95 ease-in  duration-100'>Though I am most proficient in building front-end applications using <span className=' font-extrabold'>HTML, CSS, Javascript, and React.</span></p> 
-            <p className='py-2 text-black font-semibold hover:scale-95 ease-in  duration-100'>I am a quick learner and can pick up new tech stacks as needed.</p>
-            <p className='py-2 text-black font-semibold hover:scale-95 ease-in  duration-100'>
+            <p className='py-2 text-black font-semibold'> I am passionate about learning new technologies and understand there is more than one way to accomplish a task.</p>
+            <p className='py-2 text-black font-semibold'>Though I am most proficient in building front-end applications using <span className=' font-extrabold'>HTML, CSS, Javascript, and React.</span></p> 
+            <p className='py-2 text-black font-semibold'>I am a quick learner and can pick up new tech stacks as needed.</p>
+            <p className='py-2 text-black font-semibold'>
             I believe that being a great developer is not using one
             specific language, but choosing the best tool for the job.</p>
           <Link href='/#projects'>
-            <p className='py-2 text-black underline cursor-pointer font-semibold hover:scale-95 ease-in duration-100'>
+            <p className='py-2 text-black underline cursor-pointer font-semibold'>
               Check out some of my latest projects.
             </p>
           </Link>

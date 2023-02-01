@@ -22,7 +22,7 @@ function Skills() {
           <div className="p-6 shadow-xl rounded-xl hover:scale-125 ease-in duration-300">
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
-                <Image
+                <Image className=' hover:animate-spin'
                   src={Html}
                   width='64'
                   height='64'
@@ -37,7 +37,7 @@ function Skills() {
           <div className="p-6 shadow-xl rounded-xl hover:scale-125 ease-in duration-300">
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
-                <Image
+                <Image className=' hover:animate-spin'
                   src={CSS}
                   width='64'
                   height='64'
@@ -52,7 +52,7 @@ function Skills() {
           <div className="p-6 shadow-xl rounded-xl hover:scale-125 ease-in duration-300">
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
-                <Image
+                <Image className=' hover:animate-spin'
                   src={ReactImg}
                   width='64'
                   height='64'
@@ -67,7 +67,7 @@ function Skills() {
           <div className="p-6 shadow-xl rounded-xl hover:scale-125 ease-in duration-300">
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
-                <Image
+                <Image className=' hover:animate-spin'
                   src={NextJS}
                   width='64'
                   height='64'
@@ -82,7 +82,7 @@ function Skills() {
           <div className="p-6 shadow-xl rounded-xl hover:scale-125 ease-in duration-300">
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
-                <Image
+                <Image className=' hover:animate-spin'
                   src={Javascript}
                   width='64'
                   height='64'
@@ -97,7 +97,7 @@ function Skills() {
           <div className="p-6 shadow-xl rounded-xl hover:scale-125 ease-in duration-300">
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
-                <Image
+                <Image className=' hover:animate-spin'
                   src={Tailwind}
                   width='64'
                   height='64'
@@ -112,7 +112,7 @@ function Skills() {
           <div className="p-6 shadow-xl rounded-xl hover:scale-125 ease-in duration-300">
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
-                <Image
+                <Image className=' hover:animate-spin'
                   src={GitHub}
                   width='64'
                   height='64'
@@ -127,7 +127,7 @@ function Skills() {
           <div className="p-6 shadow-xl rounded-xl hover:scale-125 ease-in duration-300">
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
-                <Image
+                <Image className=' hover:animate-spin'
                   src={NodeJs}
                   width='64'
                   height='64'

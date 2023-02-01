@@ -16,14 +16,13 @@ function Contact() {
         <h2 className="py-4">Get In Touch</h2>
       </div>
       <div className="grid lg:grid-cols-5 gap-8">
+        
         <div className="col-span-3 lg:col-span-2 w-full h-full shadow-xl shadow-gray-400 rounded-xl p-4">
           <div className="lg:p-4 h-full ">
             <div>
               <Image
-                className="rounded-xl hover:scale-105 ease-in duration-300"
+                className="rounded-xl hover:scale-105 ease-in duration-300 w-full h-full"
                 src={ContactImg}
-                width="900"
-                height="500"
                 alt="/"
               />
             </div>
