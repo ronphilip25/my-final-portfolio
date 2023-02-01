@@ -1,7 +1,7 @@
 import React from 'react'
 import Link from 'next/link'
 import Image from 'next/image'
-import PetImg from '../public/petcommerce.JPG'
+import PetImg from '../public/petcommerce.jpg'
 import Soon from '../public/soon.jpg'
 
 function ProjectItems() {
