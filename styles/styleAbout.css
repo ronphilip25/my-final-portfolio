@@ -85,3 +85,20 @@ from,
     overflow: visible;
   }
 }
+
+.letter {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  font-weight: bolder;
+  text-shadow: 0.03em 0.03em 0.02em #777;
+  will-change: transform;
+  cursor: default;
+  
+  display: inline-block;
+  transition: transform 0.2s ease;
+}
+
+/* This is all we need :D */
+.letter:hover {
+  transform: scaleX(0.8) scaleY(1.2);
+}
