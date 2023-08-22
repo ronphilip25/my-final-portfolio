@@ -2,7 +2,7 @@ import React, {useState, useEffect} from 'react'
 import Link from 'next/link'
 import Image from 'next/image'
 import {AiOutlineClose,AiOutlineMenu} from 'react-icons/ai'
-import { FaGithub} from 'react-icons/fa';
+import {FaGithub} from 'react-icons/fa';
 import {BsTwitter, BsFacebook, BsInstagram} from 'react-icons/bs';
 import NavLogo from '../public/rLogo.png'
 // import { useRouter } from 'next/router';
