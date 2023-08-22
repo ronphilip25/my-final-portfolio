@@ -26,7 +26,7 @@ function ProjectItems() {
                  <p className='pb-4 pt-2 text-white text-center'>NextJs, ReactJs</p>
                  <p className='text-center py-3 rounded-lg bg-white text-gray-700 font-bold text-lg cursor-pointer'>Click Here</p>
               </div>
-              <Link href='/'>
+              <Link href='https://sample-e-commerce-three.vercel.app/products'>
               <Image className='rounded-xl group-hover:opacity-10 '
                 src={Soon}
                 alt='Logo'

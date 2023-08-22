@@ -5,7 +5,7 @@ import {HiOutlineChevronDoubleUp} from 'react-icons/hi'
 import Link from 'next/link'
 import Image from 'next/image'
 import ContactImg from '../public/assets/contact.png'
-
+   
 function Contact() {
   return (
     <div id="contact" className="w-full lg:h-screen">
