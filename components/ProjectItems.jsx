@@ -29,7 +29,7 @@ function ProjectItems() {
               </div>
               <Link href='https://sample-e-commerce-three.vercel.app/products'>
               <Image className='rounded-xl group-hover:opacity-10 '
-                src={coop}
+                src={Soon}
                 alt='Logo'
               />
             </Link>
