@@ -3,7 +3,7 @@ import Link from 'next/link'
 import Image from 'next/image'
 import PetImg from '../public/petcommerce.jpg'
 import Soon from '../public/soon.jpg'
-import Coop from '../public/coop'
+import Coop from '../public/assets/coop.jpg'
 
 function ProjectItems() {
   return (
