@@ -3,7 +3,7 @@ import Link from 'next/link'
 import Image from 'next/image'
 import PetImg from '../public/petcommerce.jpg'
 import Soon from '../public/soon.jpg'
-import Coop from '../public/assets/coop.jpg'
+import CoopImg from '../public/assets/coop.jpg'
 
 function ProjectItems() {
   return (
@@ -29,7 +29,7 @@ function ProjectItems() {
               </div>
               <Link href='https://sample-e-commerce-three.vercel.app/products'>
               <Image className='rounded-xl group-hover:opacity-10 '
-                src={Coop}
+                src={CoopImg}
                 alt='Logo'
               />
             </Link>
